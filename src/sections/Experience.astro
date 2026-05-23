@@ -14,20 +14,20 @@ const mainExperience = allExperiences.find((e) => e.data.isMain);
             allExperiences.slice(0, 3).map((exp) => (
                 <GlassBox
                     class="flex-1 p-6 md:p-8 flex flex-col items-start xl:place-self-stretch min-h-[250px]
-						lg:timeline-view lg:animate-blurred-fade-in lg:animate-range-[entry_5%_contain_30%]"
+						lg:timeline-view lg:animate-blurred-fade-in lg:animate-range-[entry_5%_contain_30%] prose prose-base"
                 >
                     <h3 class="text-2xl font-bold text-font-primary">
                         {exp.data.title}
                     </h3>
-                    <div class="flex flex-row justify-between items-center mt-2 gap-6">
+                    <!-- <div class="flex flex-row justify-between items-center mt-2 gap-6"> -->
                         <h4 class="text-lg font-semibold text-blue-600 dark:text-blue-400">
                             {exp.data.company}
                         </h4>
                         <span class="text-lg text-font-secondary">
                             {exp.data.time}
                         </span>
-                    </div>
-                    <p class="mt-4 text-base text-font-secondary grow leading-relaxed">
+                    <!-- </div> -->
+                    <p class="mt-4 text-base text-font-secondary grow leading-relaxed pb-10">
                         {exp.data.description}
                     </p>
                 </GlassBox>
