@@ -11,7 +11,7 @@ const mainExperience = allExperiences.find((e) => e.data.isMain);
         class="flex flex-col xl:flex-row md:items-stretch justify-center gap-6 md:gap-6"
     >
         {
-            allExperiences.slice(0, 2).map((exp) => (
+            allExperiences.slice(0, 3).map((exp) => (
                 <GlassBox
                     class="flex-1 p-6 md:p-8 flex flex-col items-start xl:place-self-stretch min-h-[250px]
 						lg:timeline-view lg:animate-blurred-fade-in lg:animate-range-[entry_5%_contain_30%]"
@@ -34,9 +34,8 @@ const mainExperience = allExperiences.find((e) => e.data.isMain);
             ))
         }
 
-        <GlassBox
-            class="flex-1 p-6 md:p-8 flex flex-col items-start xl:place-self-stretch min-h-[250px]
-					lg:timeline-view lg:animate-blurred-fade-in lg:animate-range-[entry_5%_contain_30%]"
+        <!-- <GlassBox
+            class="flex-1 p-6 md:p-8 flex flex-col items-start xl:place-self-stretch min-h-[250px] lg:timeline-view lg:animate-blurred-fade-in lg:animate-range-[entry_5%_contain_30%]"
         >
             <h3
                 class="font-light text-2xl tracking-wider text-font-primary mb-6 flex items-center w-full"
@@ -56,10 +55,10 @@ const mainExperience = allExperiences.find((e) => e.data.isMain);
                                         {value}
                                     </p>
                                 </div>
-                            ),
+                            )
                         )
                 }
             </div>
-        </GlassBox>
+        </GlassBox> -->
     </div>
 </Section>
