@@ -1,0 +1,11 @@
+{
+    "title": "Taylor Swift Lyrics Generator",
+    "description": "Web application to generate Taylor Swift lyrics using a small neural network trained with Node.js and Tensorflow.js.",
+    "link": "https://github.com/TonnyOrtiz/TaylorSwiftSongGeneratorFE",
+    "tags": [
+        "Backend",
+        "NodeJS",
+        "Tensorflow.js",
+        ""
+    ]
+}

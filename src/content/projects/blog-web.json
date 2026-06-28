@@ -1,0 +1,11 @@
+{
+  "title": "Web Blog",
+  "description": "Blog Frontend connected to a mysql database. This was developed as a Project of the Web development course at UCR.",
+  "link": "https://github.com/TonnyOrtiz/weblog",
+  "tags": [
+    "HTML",
+    "CSS",
+    "Javascript",
+    "mysql"
+  ]
+}
